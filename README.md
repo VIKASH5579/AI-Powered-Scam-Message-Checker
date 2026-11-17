@@ -55,9 +55,8 @@ Installation
 
 Clone the repository:
 
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd YOUR_PROJECT_FOLDER
-
+git clone https://github.com/VIKASH5579/AI-Powered-Scam-Message-Checker.git
+cd AI_Scam_Message_Checker
 Install dependencies:
 
 pip install -r requirements.txt
