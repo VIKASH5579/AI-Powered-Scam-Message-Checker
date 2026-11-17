@@ -133,3 +133,7 @@ Sample: Bank NEFT transaction confirmation.
 - Risk Level: LOW
 
 Result: Correctly identified as a low-risk genuine-style message.
+
+## 🏗️ Project Architecture
+
+For a detailed explanation of the system design and workflow, see [Architecture Documentation](architecture.md).
