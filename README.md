@@ -122,3 +122,15 @@ The AI Scam Message Checker successfully analyzed a suspicious bank KYC message.
 Never share OTP, UPI PIN, passwords, or sensitive banking information.
 
 *Note: This is an experimental scam detection system.*
+
+### Genuine Message Test
+
+Sample: Bank NEFT transaction confirmation.
+
+- Rule Score: 0/100
+- AI Scam Score: 38.91%
+- AI Prediction: GENUINE
+- Final Risk Score: 16/100
+- Risk Level: LOW
+
+Result: Correctly identified as a low-risk genuine-style message.
