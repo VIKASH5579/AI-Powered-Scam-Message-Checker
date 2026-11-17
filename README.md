@@ -97,3 +97,28 @@ To create an accessible, intelligent, and privacy-conscious cyber-safety assista
 License
 
 For educational and research purposes.
+
+## 🚀 Live Demo
+
+The AI Scam Message Checker successfully analyzed a suspicious bank KYC message.
+
+### Sample Analysis Result
+
+- Rule Score: 75/100
+- AI Scam Score: 93.37%
+- AI Prediction: SCAM
+- Final Risk Score: 82/100
+- Risk Level: HIGH
+
+### Detected Warning Signs
+
+- Suspicious KYC update warning
+- Threat of account blocking or suspension
+- Urgent or pressure-based language
+- Suspicious URL pattern detected
+
+### Safety Recommendation
+
+Never share OTP, UPI PIN, passwords, or sensitive banking information.
+
+*Note: This is an experimental scam detection system.*
