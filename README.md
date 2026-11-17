@@ -53,19 +53,22 @@ How It Works
 
 Installation
 
-Clone the repository:
+1. Clone the repository
 
 git clone https://github.com/VIKASH5579/AI-Powered-Scam-Message-Checker.git
-cd AI_Scam_Message_Checker
-Install dependencies:
+cd AI-Powered-Scam-Message-Checker
+
+2. Install dependencies
 
 pip install -r requirements.txt
 
-Install Tesseract OCR and configure its path in the project.
+3. Install Tesseract OCR
 
-Configuration
+Install Tesseract OCR and configure its executable path in the project.
 
-Create a ".env" file and add your Telegram bot token:
+4. Configure Telegram Bot
+
+Create a ".env" file in the project root directory:
 
 BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
 
@@ -83,11 +86,50 @@ Privacy and Security
 - Temporary message data is automatically cleared after the configured period.
 - Monthly reports use aggregated analysis data.
 
+Live Demo
+
+Scam Message Test
+
+Sample: Suspicious bank KYC update message.
+
+Metric| Result
+Rule Score| 75/100
+AI Scam Score| 93.37%
+AI Prediction| SCAM
+Final Risk Score| 82/100
+Risk Level| HIGH
+
+Detected Warning Signs:
+
+- Suspicious KYC update warning.
+- Threat of account blocking or suspension.
+- Urgent or pressure-based language.
+- Suspicious URL pattern detected.
+
+Genuine Message Test
+
+Sample: Bank NEFT transaction confirmation.
+
+Metric| Result
+Rule Score| 0/100
+AI Scam Score| 38.91%
+AI Prediction| GENUINE
+Final Risk Score| 16/100
+Risk Level| LOW
+
+The system identified this sample as a low-risk genuine-style message.
+
+Safety Reminder: Never share OTPs, UPI PINs, passwords, or sensitive banking information.
+
+Project Architecture
+
+For the detailed system design and workflow, see "Architecture Documentation" (architecture.md).
+
 Limitations
 
-This is an experimental scam detection system. It cannot guarantee that every message is correctly classified. Always independently verify suspicious requests with the official bank, organization, or service provider.
+This is an experimental scam detection system. It cannot guarantee that every message will be correctly classified. Always independently verify suspicious requests with the official bank, organization, or service provider.
 
-Never share OTPs, passwords, or UPI PINs.
+A LOW RISK result does not guarantee that a message is safe.
 
 Project Goal
 
@@ -95,45 +137,8 @@ To create an accessible, intelligent, and privacy-conscious cyber-safety assista
 
 License
 
-For educational and research purposes.
+No standard open-source license has been added yet. Contact the repository owner before reusing or distributing this project.
 
-## 🚀 Live Demo
+---
 
-The AI Scam Message Checker successfully analyzed a suspicious bank KYC message.
-
-### Sample Analysis Result
-
-- Rule Score: 75/100
-- AI Scam Score: 93.37%
-- AI Prediction: SCAM
-- Final Risk Score: 82/100
-- Risk Level: HIGH
-
-### Detected Warning Signs
-
-- Suspicious KYC update warning
-- Threat of account blocking or suspension
-- Urgent or pressure-based language
-- Suspicious URL pattern detected
-
-### Safety Recommendation
-
-Never share OTP, UPI PIN, passwords, or sensitive banking information.
-
-*Note: This is an experimental scam detection system.*
-
-### Genuine Message Test
-
-Sample: Bank NEFT transaction confirmation.
-
-- Rule Score: 0/100
-- AI Scam Score: 38.91%
-- AI Prediction: GENUINE
-- Final Risk Score: 16/100
-- Risk Level: LOW
-
-Result: Correctly identified as a low-risk genuine-style message.
-
-## 🏗️ Project Architecture
-
-For a detailed explanation of the system design and workflow, see [Architecture Documentation](architecture.md).
+Developed as an educational and research project.
