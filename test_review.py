@@ -1,0 +1,3 @@
+from database import view_review_submissions
+
+view_review_submissions()

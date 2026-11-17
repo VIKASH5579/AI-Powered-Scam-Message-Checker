@@ -1,0 +1,7 @@
+python-telegram-bot
+scikit-learn
+pandas
+pytesseract
+Pillow
+python-dotenv
+joblib

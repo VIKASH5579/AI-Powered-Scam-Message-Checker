@@ -1,0 +1,11 @@
+.env
+*.db
+__pycache__/
+*.pyc
+venv/
+.venv/
+.vscode/
+dataset/
+reports/
+models/*
+!models/scam_model.pkl

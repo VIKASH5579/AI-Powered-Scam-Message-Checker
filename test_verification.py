@@ -1,0 +1,3 @@
+from database import view_verified_submissions
+
+view_verified_submissions()
